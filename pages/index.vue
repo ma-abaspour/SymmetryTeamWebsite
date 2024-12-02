@@ -1,72 +1,39 @@
 
 <template>
 
-
-    <!-- <section class="max-w-screen-sm flex flex-col mx-auto p-8 pt-8 ">
-      <div class="grid grid-cols-3 grid-rows-3 gap-2 md:gap-3">
-        <div class="h-16 md:h-32 bg-gray-400 rounded-lg"></div>
-        <div class="bg-gray-400 row-span-2 rounded-lg"></div>
-        <div class="bg-gray-400 rounded-lg"></div>
-        <div class="bg-gray-400 row-span-2 rounded-lg"></div>
-        <div class="bg-gray-400 row-span-2 rounded-lg"></div>
-        <div class="bg-gray-400 rounded-lg"></div>
-      </div>
-      <p class="text-gray-500 pt-3 text-xs md:text-sm"># Interdependent harmonic oscillation. An abstract phenomenon commonly observed in many distinct areas of nature in many different forms, as if by design.</p>
-    </section> -->
-
-
-    <!-- <section class="max-w-screen-sm flex flex-col mx-auto p-8 pt-8 "> -->
-    <!--   <p class="text-gray-200 font-bold">Published Articles</p> -->
-    <!--   <div class="bg-gray-300 text-xs md:text-sm text-gray-900 m-2 p-2 border rounded"> -->
-    <!--     No articles published yet. -->
-    <!--   </div> -->
-    <!-- </section> -->
+  <!-- Gallery -->
+  <div class="max-w-screen-sm min-h-screen mx-auto pt-8 bg-gray-950 ">
+        <div class="grid grid-cols-6 col-span-2   gap-2  ">
+          <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
+            <img class="h-full w-full object-cover "
+                 src="https://images.unsplash.com/photo-1517487881594-2787fef5ebf7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+                 alt="">
+          </div>
+          <div class=" overflow-hidden rounded-xl col-span-3 max-h-[14rem]">
+            <img class="h-full w-full object-cover  "
+                 src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1399&q=80"
+                 alt="">
+          </div>
+          <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
+            <img class="h-full w-full object-cover "
+                 src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                 alt="">
+          </div>
+          <div class=" overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
+            <img class="h-full w-full object-cover "
+                 src="https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                 alt="">
+          </div>
+          <div class="relative overflow-hidden rounded-xl col-span-2 max-h-[10rem]">
+            <div
+                class="text-white text-xl absolute inset-0  bg-slate-900/80 flex justify-center items-center">
+              + 23
+            </div>
+            <img class="h-full w-full object-cover "
+                 src="https://images.unsplash.com/photo-1560393464-5c69a73c5770?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80"
+                 alt="">
+          </div>
+        </div>
+    </div>
 
 </template>
-
-
-<style scoped>
-/* Keyframes for scaling animation */
-@keyframes scalePulse {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-}
-
-/* Keyframes for subtle move */
-@keyframes subtleMove {
-  0%, 100% {
-    transform: translate(0, 0);
-  }
-  25% {
-    transform: translate(-5px, -5px);
-  }
-  50% {
-    transform: translate(5px, 5px);
-  }
-  75% {
-    transform: translate(-5px, 5px);
-  }
-}
-
-/* General grid animation */
-.grid div {
-  animation: scalePulse 6s infinite ease-in-out, subtleMove 8s infinite ease-in-out;
-  will-change: transform;
-}
-
-/* Individual delay for each grid cell to create staggered effect */
-.grid div:nth-child(1) { animation-delay: 0s, -0.5s; }
-.grid div:nth-child(2) { animation-delay: 0.1s, -0.6s; }
-.grid div:nth-child(3) { animation-delay: 0.2s, -0.7s; }
-.grid div:nth-child(4) { animation-delay: 0.3s, -0.8s; }
-.grid div:nth-child(5) { animation-delay: 0.4s, -0.9s; }
-.grid div:nth-child(6) { animation-delay: 0.5s, -1s; }
-
-
-</style>
-
-
