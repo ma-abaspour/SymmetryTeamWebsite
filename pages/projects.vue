@@ -67,22 +67,22 @@
       </div>
     </li>
     
-    <!-- Industrial Solutions Project -->
-    <li class="flex items-start p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors">
-      <div class="flex-shrink-0">
-        <!-- Using Font Awesome Icon for Industrial Solutions -->
-         <Icon name="material-symbols:factory" class="text-teal-400 text-3xl" />
-      </div>
-      <div class="ml-4">
-        <h3 class="text-lg font-medium text-gray-200">Industrial Solutions</h3>
-        <p class="text-sm text-gray-400 mt-1">
-          Designing and deploying IoT systems, embedded solutions, and robotics integrations for industrial environments to optimize processes, increase operational efficiency, and enhance automation across various manufacturing and production settings.
-        </p>
-        <NuxtLink to="/our-work/industrial-solutions" class="text-teal-400 text-sm mt-2 inline-block">
-          Learn More
-        </NuxtLink>
-      </div>
-    </li>
+    <!-- Industrial Solutions Project (Planned for Future) -->
+<li class="flex items-start p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors">
+  <div class="flex-shrink-0">
+    <!-- Using Font Awesome Icon for Industrial Solutions -->
+    <Icon name="material-symbols:factory" class="text-teal-400 text-3xl" />
+  </div>
+  <div class="ml-4">
+    <h3 class="text-lg font-medium text-gray-200">Industrial Solutions</h3>
+    <p class="text-sm text-gray-400 mt-1">
+      Designing and deploying IoT systems, embedded solutions, and robotics integrations for industrial environments to optimize processes, increase operational efficiency, and enhance automation across various manufacturing and production settings.
+    </p>
+    <span class="text-teal-400 text-sm mt-2 inline-block italic">
+      Planned for Future.
+    </span>
+  </div>
+</li>
     
     <!-- Solar Power Solutions Project -->
     <li class="flex items-start p-4 bg-gray-800 rounded-lg shadow-md hover:bg-gray-700 transition-colors">
@@ -95,9 +95,9 @@
         <p class="text-sm text-gray-400 mt-1">
           Providing efficient solar power systems with embedded controls and IoT monitoring to promote sustainability, reduce environmental impact, and optimize energy usage through advanced automation and data-driven insights.
         </p>
-        <NuxtLink to="/our-work/solar-power" class="text-teal-400 text-sm mt-2 inline-block">
-          Learn More
-        </NuxtLink>
+    <span class="text-teal-400 text-sm mt-2 inline-block italic">
+      Planned for Future.
+    </span>
       </div>
     </li>
     
@@ -152,9 +152,6 @@
       </ul>
     </section>
 
-
-
-
     <!-- Science and Mathematics Services Section -->
 <section class="mb-8">
   <h2 class="text-xl font-medium text-gray-200 mb-4">Science</h2>
@@ -169,17 +166,13 @@
         <p class="text-sm text-gray-400 mt-1">
           Utilizing advanced computational models to predict and analyze system behaviors, enabling optimization of designs and enhancement of performance across various engineering applications.
         </p>
-        <NuxtLink to="/our-work/simulation-services" class="text-teal-400 text-sm mt-2 inline-block">
-          Learn More
-        </NuxtLink>
+    <span class="text-teal-400 text-sm mt-2 inline-block italic">
+      Planned for Future.
+    </span>
       </div>
     </li>
   </ul>
 </section>
-
-
-
-
 
   </div>
 </template>
