@@ -22,16 +22,10 @@
         <NuxtLink to="/projects" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
           <Icon name="material-symbols:business-center" style="font-size: 24px;" />
         </NuxtLink>
-        <NuxtLink to="/experiments" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
-          <Icon name="fluent-emoji-high-contrast:magic-wand" style="font-size: 24px;" />
-        </NuxtLink>
         <NuxtLink to="/articles" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
           <Icon name="material-symbols:article" style="font-size: 24px;" />
         </NuxtLink>
-        <NuxtLink to="/bookmarks" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
-          <Icon name="material-symbols:bookmark-add" style="font-size: 24px;" />
-        </NuxtLink>
-      </div>
+     </div>
       <div>
         <NuxtLink to="/login" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
           <Icon name="material-symbols:login" style="font-size: 24px;" />
