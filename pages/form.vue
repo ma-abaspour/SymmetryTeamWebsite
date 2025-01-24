@@ -1,16 +1,4 @@
 <template>
-  <!-- <section class="max-w-screen-sm mx-auto pt-8 flex flex-col gap-2" id="target">
-    <p class="text-gray-200 font-bold">Contact Form</p>
-
-    <textarea rows="1" placeholder="Please introduce yourself." class="bg-gray-300 rounded mx-2 p-2 text-sm"></textarea>
-    <textarea rows="1" placeholder="Your message." class="bg-gray-300 rounded mx-2 p-2 text-sm"></textarea>
-    <textarea rows="1" placeholder="How could we contact you?" class="bg-gray-300 rounded mx-2 p-2 text-sm"></textarea>
-    <p class="text-gray-500 px-3 py-1 text-xs md:text-sm"> # You can expand input fields by dragging down from the bottom-right corner.</p>
-
-    <button type="submit" class="bg-blue-500 w-fit text-xs md:text-sm hover:bg-blue-600 text-white font-bold mx-3 py-2 px-4 rounded">Submit</button>
-  </section> -->
-
-
     <div class="max-w-md mx-auto p-5 bg-gray-800 rounded-lg shadow-md mt-8">
     <h2 class="text-lg font-medium text-gray-200 text-center mb-4">Contact Us</h2>
     <form class="space-y-3">
@@ -35,7 +23,7 @@
         <textarea
           id="message"
           rows="3"
-          class="w-full px-3 py-1 bg-gray-700 text-gray-200 border border-gray-600 rounded focus:outline-none focus:ring-1 focus:ring-teal-400 text-sm resize-none"
+          class="w-full px-3 py-1 bg-gray-700 text-gray-200 border border-gray-600 rounded focus:outline-none focus:ring-1 focus:ring-teal-400 text-sm"
         ></textarea>
       </div>
       <button
