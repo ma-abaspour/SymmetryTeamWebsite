@@ -25,10 +25,14 @@
         <NuxtLink to="/articles" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
           <Icon name="material-symbols:article" style="font-size: 24px;" />
         </NuxtLink>
+        <NuxtLink to="/hire" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
+          <Icon name="ph:handshake-bold" style="font-size: 24px;" />
+        </NuxtLink>
+        
      </div>
       <div>
-        <NuxtLink to="/login" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
-          <Icon name="material-symbols:login" style="font-size: 24px;" />
+        <NuxtLink to="/dashboard" class="text-white hover:text-teal-400" active-class="text-teal-400 dark:text-teal-400">
+          <Icon name="material-symbols:dashboard-2" style="font-size: 24px;" />
         </NuxtLink>
       </div>
     </header>

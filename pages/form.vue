@@ -11,7 +11,7 @@
         />
       </div>
       <div>
-        <label for="email" class="block text-xs text-gray-400 mb-1">Email Address</label>
+        <label for="email" class="block text-xs text-gray-400 mb-1">Your Email Address</label>
         <input
           type="email"
           id="email"
