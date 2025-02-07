@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@nuxt/icon', 'nuxt-multi-tenancy'],
   multiTenancy: {
     tenantDynamicRoute: 'site',
-    rootDomains: ["symmetry.team", "techgoda.net"],
-    sites: ['jobs']
+    rootDomains: ["symmetry.team"],
+    sites: ['jobs', 'sub']
   },
 })
